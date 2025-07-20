@@ -6,7 +6,7 @@
   <title>Intengio Software</title>
   <style>
     body {
-      margin: 0; 
+      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f4f7fa;
       color: #2c3e50;
@@ -88,6 +88,21 @@
       color: #2980b9;
       margin-bottom: 10px;
     }
+    .sim-button {
+      background-color: #2980b9;
+      color: white;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-bottom: 30px;
+    }
+    .sim-button:hover {
+      background-color: #1f6391;
+    }
     footer {
       margin-top: 60px;
       padding: 20px 40px;
@@ -123,11 +138,14 @@
     <h1>Welcome to Intengio Software</h1>
     <p class="tagline">Where innovation is the standard.</p>
 
+    <button class="sim-button" onclick="window.location.href='simulation.html'">
+      Launch Simulation
+    </button>
+
     <section id="about">
       <h2>About Us</h2>
       <p>
-        Intengio Software is a small, innovative tech startup specializing in low-level development and advanced predictive software solutions.  
-        We combine deep technical expertise with cutting-edge research to build powerful, efficient systems that help businesses anticipate the future and optimize performance.
+        Intengio Software is a small, innovative tech startup specializing in low-level development and advanced predictive software solutions.
       </p>
     </section>
 
@@ -151,7 +169,6 @@
 
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Have questions or want to work together? Reach out!</p>
       <p>Email: <a href="mailto:IntaglioSoftware@protonmail.com">IntaglioSoftware@protonmail.com</a></p>
     </section>
   </main>
